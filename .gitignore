@@ -1,0 +1,33 @@
+# Python bytecode and compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Logs and temporary output
+logs/
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Hugging Face Trainer outputs
+outputs/
+results/
+runs/
+
+# Model checkpoints (optional — include only if not needed for deployment)
+models/
+
+# Optional: ignore raw data folder if needed
+#data/
